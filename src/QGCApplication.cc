@@ -253,6 +253,7 @@ QGCApplication::QGCApplication(int &argc, char* argv[], bool unitTesting)
         applicationName = QGC_APPLICATION_NAME;
 #endif
     }
+    applicationName = "AEBOGCS";
     setApplicationName(applicationName);
     setOrganizationName(QGC_ORG_NAME);
     setOrganizationDomain(QGC_ORG_DOMAIN);

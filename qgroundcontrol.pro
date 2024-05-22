@@ -27,7 +27,7 @@ message(Qt version $$[QT_VERSION])
 
 include(QGCCommon.pri)
 
-TARGET   = QGroundControl
+TARGET   = AEBOGCS
 TEMPLATE = app
 QGCROOT  = $$PWD
 
@@ -61,10 +61,10 @@ WindowsBuild {
 #
 
 QGC_APP_NAME        = "QGroundControl"
-QGC_ORG_NAME        = "QGroundControl.org"
-QGC_ORG_DOMAIN      = "org.qgroundcontrol"
-QGC_APP_DESCRIPTION = "Open source ground control app provided by QGroundControl dev team"
-QGC_APP_COPYRIGHT   = "Copyright (C) 2019 QGroundControl Development Team. All rights reserved."
+QGC_ORG_NAME        = "aebocode.com"
+QGC_ORG_DOMAIN      = "aebocode.com"
+QGC_APP_DESCRIPTION = "Aebo ground control station app provided by Aebocode team"
+QGC_APP_COPYRIGHT   = "Copyright (C) 2019 Aebocode Development Team. All rights reserved."
 
 WindowsBuild {
     QGC_INSTALLER_SCRIPT        = "$$SOURCE_DIR\\deploy\\windows\\nullsoft_installer.nsi"

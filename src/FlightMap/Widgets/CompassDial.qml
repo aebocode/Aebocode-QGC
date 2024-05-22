@@ -19,7 +19,7 @@ import QGroundControl.Palette
 Item {
     id: control
 
-    property real offsetRadius: width / 2 - ScreenTools.defaultFontPixelHeight / 2
+    property real offsetRadius: width / 2  - ScreenTools.defaultFontPixelHeight / 2
 
     function translateCenterToAngleX(radius, angle) {
         return radius * Math.sin(angle * (Math.PI / 180))
@@ -98,7 +98,7 @@ Item {
             y:                  _margin
             width:              1
             height:             _margin
-            color:              qgcPal.text
+            color:              "transparent"
 
             property real _margin: ScreenTools.defaultFontPixelHeight * 0.25
 

@@ -65,8 +65,9 @@ Rectangle {
     QGCPalette { id: qgcPal; colorGroupEnabled: enabled }
 
     Item {
-        id:             rotationParent
-        anchors.fill:   parent
+        id:                         rotationParent
+        anchors.fill:               parent
+
 
         transform: Rotation {
             origin.x:       rotationParent.width  / 2
@@ -86,6 +87,7 @@ Rectangle {
         Image {
             id:                 cogPointer
             source:             "/qmlimages/cOGPointer.svg"
+
             mipmap:             true
             fillMode:           Image.PreserveAspectFit
             anchors.fill:       parent
@@ -148,3 +150,4 @@ Rectangle {
         horizontalAlignment:        Text.AlignHCenter
     }
 }
+

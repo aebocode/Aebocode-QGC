@@ -44,7 +44,7 @@ Rectangle {
 		anchors.right: parent.right
         anchors.bottom: parent.bottom
 		height: 1
-		color: "black"
+        color: "black"
 		visible: qgcPal.globalTheme === QGCPalette.Light
 	}
 

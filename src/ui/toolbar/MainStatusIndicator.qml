@@ -34,7 +34,7 @@ RowLayout {
         text:           mainStatusText()
         font.pointSize: ScreenTools.largeFontPointSize
         implicitWidth:  maxWidth
-        maxWidth:       ScreenTools.defaultFontPixelWidth * ScreenTools.largeFontPointRatio * 10
+        maxWidth:       ScreenTools.defaultFontPixelWidth * ScreenTools.largeFontPointRatio * 40
 
         property string _commLostText:      qsTr("Communication Lost")
         property string _readyToFlyText:    qsTr("Ready To Fly")
